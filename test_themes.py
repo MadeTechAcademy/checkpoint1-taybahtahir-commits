@@ -9,7 +9,6 @@ def testIt():
 #test
 class TestingDuties(unittest.TestCase):
     
-    #check if theres 13 duties 
     def test_there_is_13_duties(self):
         self.assertEqual(len(Duty_list), 13)
 
