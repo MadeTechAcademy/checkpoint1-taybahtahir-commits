@@ -1,15 +1,17 @@
 import unittest
 
-from themes import x2
+from themes import Duty_list
 def testIt():
-    #assert len(x2)>10
+    #assert len(Duty_list)>10
     assert True is True
     
 
 #test
 class TestingDuties(unittest.TestCase):
-    def test_duty_numbers(self):
-        self.assertEqual(len(x2), 13)
+    
+    #check if theres 13 duties 
+    def test_there_is_13_duties(self):
+        self.assertEqual(len(Duty_list), 13)
 
 if __name__ == "__main__":
     unittest.main()
