@@ -14,8 +14,6 @@ class TestingDuties(unittest.TestCase):
         
     def test_if_all_duties_end_with_a_fullstop(self):
         for duty in Duty_list:
-            if not duty.endswith("."):
-                print(duty, "does not end with a full stop")
             self.assertTrue(duty.endswith("."))
 
 if __name__ == "__main__":
